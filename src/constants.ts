@@ -1,5 +1,9 @@
 // SPDX-License-Identifier: Apache-2.0
 
+/** The before commit SHA used in the initial push event */
+export const INITIAL_PUSH_BEFORE_COMMIT_SHA: string
+    = '0000000000000000000000000000000000000000';
+
 /** Action's output name */
 export enum OutputName {
   COMMIT_RANGE = 'commit-range',
